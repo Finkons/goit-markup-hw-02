@@ -1,35 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <!-- header -->
-    <header>
-      <nav>
-        <a href="https://finkons.github.io/goit-markup-hw-02"
-          ><span>Web</span><span>Studio</span></a
-        >
+    <header class="header">
+      <!-- nav -->
+      <nav class="header-nav">
+        <a href="./index.html" class="logo">Web<span class="logo-studio">Studio</span></a>
 
-        <ul>
-          <li><a href="">Студия</a></li>
+        <ul class="header-nav-item">
+          <li><a class="link" href="./index.html">Студия</a></li>
           <li>
-            <a href="https://finkons.github.io/goit-markup-hw-02/portfolio.html">Портфолио</a>
+            <a class="link current" href="./portfolio.html">Портфолио</a>
           </li>
-          <li><a href="">Контакты</a></li>
+          <li><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="header-contact">
+        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
       <section>
-        <h2 hidden>Фильтр</h2>
         <ul>
           <li><button type="button">Все</button></li>
           <li><button type="button">Веб-сайты</button></li>
@@ -38,7 +44,7 @@
           <li><button type="button">Маркетинг</button></li>
         </ul>
       </section>
-      <h2 hidden>Портфолио</h2>
+      <h1 hidden>Портфолио</h1>
       <ul>
         <li>
           <img
@@ -47,12 +53,12 @@
             width="370"
             height="294"
           />
-          <h3>Технокряк</h3>
+          <h2>Технокряк</h2>
           <p>Веб-сайт</p>
         </li>
         <li>
           <img src="./images/portfolio/port2.jpeg" alt="постер НБА" width="370" height="294" />
-          <h3>Постер <span lang="en">Orlean vs Golden Star</span></h3>
+          <h2>Постер <span lang="en">Orlean vs Golden Star</span></h2>
           <p>Дизайн</p>
         </li>
         <li>
@@ -62,32 +68,32 @@
             width="370"
             height="294"
           />
-          <h3>Ресторан <span lang="en">Seafood</span></h3>
+          <h2>Ресторан <span lang="en">Seafood</span></h2>
           <p>Приложение</p>
         </li>
         <li>
           <img src="./images/portfolio/port4.jpeg" alt="наушники" width="370" height="294" />
-          <h3>Проект <span lang="en">Prime</span></h3>
+          <h2>Проект <span lang="en">Prime</span></h2>
           <p>Маркетинг</p>
         </li>
         <li>
           <img src="./images/portfolio/port5.jpeg" alt="две коробки" width="370" height="294" />
-          <h3>Проект <span lang="en">Boxes</span></h3>
+          <h2>Проект <span lang="en">Boxes</span></h2>
           <p>Приложение</p>
         </li>
         <li>
           <img src="./images/portfolio/port6.jpeg" alt="монитор" width="370" height="294" />
-          <h3 lang="en">Inspiration has no Borders</h3>
+          <h2 lang="en">Inspiration has no Borders</h2>
           <p>Веб-сайт</p>
         </li>
         <li>
           <img src="./images/portfolio/port7.jpeg" alt="книга" width="370" height="294" />
-          <h3>Издание <span lang="en">Limited Edition</span></h3>
+          <h2>Издание <span lang="en">Limited Edition</span></h2>
           <p>Дизайн</p>
         </li>
         <li>
           <img src="./images/portfolio/port8.jpeg" alt="бирка" width="370" height="294" />
-          <h3>Проект LAB</h3>
+          <h2>Проект LAB</h2>
           <p>Маркетинг</p>
         </li>
         <li>
@@ -97,13 +103,13 @@
             width="370"
             height="294"
           />
-          <h3 lang="en">Growing Business</h3>
+          <h2 lang="en">Growing Business</h2>
           <p>Приложение</p>
         </li>
       </ul>
     </main>
     <footer>
-      <a href="https://finkons.github.io/goit-markup-hw-02"><span>Web</span><span>Studio</span></a>
+      <a href="./index.html"><span>Web</span><span>Studio</span></a>
       <address>
         <ul>
           <li>
