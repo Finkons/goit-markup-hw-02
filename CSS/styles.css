@@ -30,7 +30,7 @@ a {
   color: var(--primary-text-color);
 }
 .header {
-  width: 1600px;
+  max-width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
@@ -68,7 +68,7 @@ ul {
 }
 /* hero */
 .hero {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
 
   background: var(--background-gray);
@@ -90,6 +90,7 @@ ul {
   color: var(--primary-color-white);
 }
 .hero-button {
+  cursor: pointer;
   position: absolute;
   width: 200px;
   height: 50px;
@@ -155,30 +156,23 @@ ul {
   color: var(--primary-color-white);
 }
 .footer {
-  position: absolute;
-  width: 1600px;
+  max-width: 1600px;
   height: 252px;
-  left: 0px;
-
   background: var(--background-gray);
 }
-.footer-address {
+.address-list a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-list a:hover,
+.address-list a:focus {
   color: var(--primary-color-white);
 }
 
-.footer-contacts {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
-}
-
 /* portfolio */
-.port-button-item li {
+.port-button-list li {
   display: inline;
 }
 
