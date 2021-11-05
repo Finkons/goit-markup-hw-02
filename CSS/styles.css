@@ -168,7 +168,7 @@ ul {
 }
 .address-list a:hover,
 .address-list a:focus {
-  color: var(--primary-color-white);
+  color: var(--accent-color);
 }
 
 /* portfolio */
